@@ -40,6 +40,11 @@ Any stylesheet consists of a collection of **ruleset**s. A ruleset consists of f
 | Property Value | The value assigned to the property, e.g `blue` for the `color` property, `3rem` for the `font-size` property             |
 
 
+## Combinators
+
+- You can combine multiple selectors with a comma to create a new selector that selects all elements that are selected by **any one** of the selectors.
+- The descendant combinator ` ` (space) selects all elements that are descendants (children) of another selector.
+ 
 ## Box Model
 
 All elements of a website are rectangular boxes described by the **box model**. Each of those boxes has four areas: content, padding, border and margin.
