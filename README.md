@@ -9,5 +9,5 @@ If this notespace is created according to plan, every "session" will have
 (I can't imagine I'll keep up with it, and the road to Hell is paved with good intentions, but let's see what happens.)
 
 ## Links
-- [git cheatsheet](../session-notebook/shell-and-git/git-cheatsheet.md)
-- [git branches and PRs](../session-notebook/shell-and-git/git-branches-and-prs.md) 
+- [git cheatsheet](shell-and-git/git-cheatsheet.md)
+- [git branches and PRs](shell-and-git/git-branches-and-prs.md) 
