@@ -13,4 +13,3 @@ If this notespace is created according to plan, every "session" will have
 - [git branches and PRs](shell-and-git/git-branches-and-prs.md) 
 - [HTML and the web](html/html-and-the-web.md)
 - [CSS Basics](css/css-basics.md)
-- [HTML and the web](html/html-and-the-web.md)
