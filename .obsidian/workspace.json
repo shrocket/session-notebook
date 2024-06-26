@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "css/css-basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "eca8d92310064efb",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "css/css-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "css/css-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "css/css-basics.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
-    "css/css-basics.md",
-    "css/css-flexbox.md",
+    "html/html-and-the-web.md",
+    "shell-and-git/git-cheatsheet.md",
+    "shell-and-git/git-branches-and-prs.md",
     "README.md",
-    "shell-and-git/git-cheatsheet.md"
+    "css/css-basics.md",
+    "css/css-flexbox.md"
   ]
 }
