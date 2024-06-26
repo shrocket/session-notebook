@@ -6,7 +6,11 @@ If this notespace is created according to plan, every "session" will have
 - a markdown file of notes
 - a link in this README
 
-(I can't imagine I'll keep up with it, and the road to Hell is paved with good intentions, but let's see what happens.)
+(I can't imagine I'll keep up with it, and the road to Hell is paved with good intentions, but let's see what happens.) 
+
+This repo was initially created on 2023-10-25 and abandoned pretty much the same day.
+
+Today is 2024-06-26, and I'm restarting, dammit.
 
 ## Links
 - [git cheatsheet](shell-and-git/git-cheatsheet.md)
