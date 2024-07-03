@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-positioning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-positioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-positioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/css-basics.md"
+                "file": "css/css-positioning.md"
               }
             }
           }
@@ -148,11 +148,18 @@
   },
   "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
+    "position-sticky.png",
+    "position-relative.png",
+    "css/css-flexbox.md",
+    "css/css-positioning.md",
+    "css/css-gridlayout.md",
+    "flex-wrap.png",
+    "assets",
+    "assets/flex-direction.png",
+    "css/css-basics.md",
     "html/html-and-the-web.md",
     "shell-and-git/git-cheatsheet.md",
     "shell-and-git/git-branches-and-prs.md",
-    "README.md",
-    "css/css-basics.md",
-    "css/css-flexbox.md"
+    "README.md"
   ]
 }
