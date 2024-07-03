@@ -17,7 +17,7 @@ The position is specified by the four position properties:
 - `left`
 These work differently depending on the positioning method.
 
-### `position: status`
+### `position: static`
 
 Elements are positioned according to the normal document flow and then displaced by the 
 - `top`
