@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Accessibility - Active Learning.md",
+                "file": "Accessibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accessibility - Active Learning.md",
+                "file": "Accessibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accessibility - Active Learning.md",
+                "file": "Accessibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accessibility - Active Learning.md"
+                "file": "Accessibility.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "active": "32f308621d405a7d",
   "lastOpenFiles": [
     "css/css-positioning.md",
-    "Accessibility - Active Learning.md",
+    "Accessibility.md",
     "assets/position-sticky.png",
     "assets/position-relative.png",
     "css/css-flexbox.md",
