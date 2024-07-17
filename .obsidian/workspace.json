@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shell-and-git/git-branches-and-prs.md",
+                "file": "css/css-basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shell-and-git/git-branches-and-prs.md",
+                "file": "css/css-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shell-and-git/git-branches-and-prs.md",
+                "file": "css/css-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shell-and-git/git-branches-and-prs.md"
+                "file": "css/css-basics.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "32f308621d405a7d",
   "lastOpenFiles": [
+    "shell-and-git/git-branches-and-prs.md",
     "shell-and-git/git-cheatsheet.md",
     "Accessibility.md",
     "css/css-positioning.md",
@@ -173,7 +174,6 @@
     "assets/flex-direction.png",
     "css/css-basics.md",
     "html/html-and-the-web.md",
-    "shell-and-git/git-branches-and-prs.md",
     "README.md"
   ]
 }
