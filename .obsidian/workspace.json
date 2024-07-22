@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/css-responsive.md",
+                "file": "css/css-positioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/css-responsive.md",
+                "file": "css/css-positioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/css-responsive.md"
+                "file": "css/css-positioning.md"
               }
             }
           }
@@ -159,15 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32f308621d405a7d",
+  "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
     "css/css-responsive.md",
+    "css/css-positioning.md",
     "shell-and-git/git-branches-and-prs.md",
     "shell-and-git/git-cheatsheet.md",
     "html/html-and-the-web.md",
     "css/css-basics.md",
     "Accessibility.md",
-    "css/css-positioning.md",
     "assets/position-sticky.png",
     "assets/position-relative.png",
     "css/css-flexbox.md",
