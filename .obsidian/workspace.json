@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-responsive.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-responsive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/css-basics.md",
+                "file": "css/css-responsive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/css-basics.md"
+                "file": "css/css-responsive.md"
               }
             }
           }
@@ -161,8 +161,11 @@
   },
   "active": "32f308621d405a7d",
   "lastOpenFiles": [
+    "css/css-responsive.md",
     "shell-and-git/git-branches-and-prs.md",
     "shell-and-git/git-cheatsheet.md",
+    "html/html-and-the-web.md",
+    "css/css-basics.md",
     "Accessibility.md",
     "css/css-positioning.md",
     "assets/position-sticky.png",
@@ -172,8 +175,6 @@
     "assets/flex-wrap.png",
     "assets",
     "assets/flex-direction.png",
-    "css/css-basics.md",
-    "html/html-and-the-web.md",
     "README.md"
   ]
 }
