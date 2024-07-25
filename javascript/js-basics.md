@@ -27,6 +27,15 @@ console.error("Error!"); // logs as error into console
 ```
 
 
+## Simple Variables
+```js
+const hacking = "Happy hacking!";
+console.log(hacking);
+
+// the sentence stored in the variable is then, with the .log, diplayed in the console
+```
+
+
 ## Selecting HTML Elements: `.querySelector()`
 
 Before we can add interactivity, we need to select the necessary HTML elements:
