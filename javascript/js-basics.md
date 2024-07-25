@@ -1,3 +1,4 @@
+[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-basics/js-basics.md)
 ## Connect a JavaScript file
 
 ```html
@@ -92,3 +93,44 @@ button.addEventListener("keydown", () => {});
 
 
 ## Add/remove & Toggle Classes: `.classList.`
+
+You can add, remove, and toggle classes in order to, for example, change the styling of an element.
+
+```html
+<main data-js="main">
+	<button type="button" data-js="button">Add a class</button>
+</main>
+```
+
+Add __page--primary__ class to the above main section by using the `selectdElement.classList.add` method:
+
+```js
+const main = document.querySelector('[data-js="main"]');
+const button = document.querySelector('[data-js="button"]');
+
+button.addEventListener("click", () => {
+	main.classList.add("page--primary");
+})'
+```
+
+A click on the button adds the class __page--primary__ to the main element:
+
+```html
+<main data-js="main" class="page--primary">
+	<button type="button" data-js="button">Add a class</button>
+</main>
+```
+
+You can also __remove__ or __toggle__ a class in the same way:
+
+```js
+main.classList.remove("page--primary")'
+```
+
+```js
+main.classList.toggle("page--primary");
+```
+
+
+## Resources
+[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-basics/js-basics.md)
