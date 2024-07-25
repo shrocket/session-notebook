@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "54f897d10366498e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "32f308621d405a7d",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "504aad5ccf841b2a",
+  "active": "54f897d10366498e",
   "lastOpenFiles": [
     "css/css-responsive.md",
     "css/css-positioning.md",
