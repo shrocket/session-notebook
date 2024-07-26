@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/js-basics.md",
+                "file": "css/css-structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/js-basics.md",
+                "file": "css/css-structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/js-basics.md",
+                "file": "css/css-structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/js-basics.md"
+                "file": "css/css-structure.md"
               }
             }
           }
@@ -172,9 +172,10 @@
   },
   "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
+    "javascript/js-basics.md",
+    "css/css-structure.md",
     "shell-and-git/git-branches-and-prs.md",
     "shell-and-git/git-cheatsheet.md",
-    "javascript/js-basics.md",
     "css/css-responsive.md",
     "css/css-positioning.md",
     "html/html-and-the-web.md",
