@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shell-and-git/git-cheatsheet.md",
+                "file": "shell-and-git/git-branches-and-prs.md",
                 "mode": "source",
                 "source": false
               }
@@ -172,11 +172,11 @@
   },
   "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
+    "shell-and-git/git-branches-and-prs.md",
     "shell-and-git/git-cheatsheet.md",
     "javascript/js-basics.md",
     "css/css-responsive.md",
     "css/css-positioning.md",
-    "shell-and-git/git-branches-and-prs.md",
     "html/html-and-the-web.md",
     "css/css-basics.md",
     "Accessibility.md",
