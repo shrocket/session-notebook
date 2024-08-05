@@ -68,3 +68,21 @@ You can find an introduction to BEM [here](http://getbem.com/introduction/)
 ```
 
 ## CSS Variables
+Reused/reusable values can be stored in custom properties.
+A common practice is to define variables in the `:root` pseudo class selector as follows:
+```css
+:root {
+	--primary-color: #ff00ff;
+	--secondary-color: #f00f0f;
+}
+```
+
+> [!alert] Custom properties must be prefixed with `--`
+
+Custom properties can then be called as follows:
+```css
+.customer-card {
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+}
+```
