@@ -12,9 +12,25 @@ When stying an element, the browser:
 4. Chooses the __last__ declaration over the __previous__ one
 See [CSS Cascade mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
 
+> [!warning] 
+> Avoid `!important`
+
 ### Specificity
+More specific CSS rules win over less specific ones.
+A good list of the specificity of different selectors can be found at [specifishity.com](https://specifishity.com/).
+The universal selector is the least specific. It is overwritten by any other rules with any other matching selector.
+__type__ selectors like `div` have a __low specificity__ and can easily be overwritten.
+__class__ selectors like `.bright` and __attribute__ selectors like `[type=checkbox]` have higher specificity.
 
+## Structuring Best Practices
+- keep your CSS consistent! In collaborative projects, there are often style guidelines.
+- separate global and local styles into different files (or sections of files)
+- create multiple stylesheets for different parts of your application
+	- structure your code by thinking in reusable __components__ (each component in its own CSS file).
+### Import one stylesheet into another
+```css
+@import "customer-card.css"
+```
 
-## Structuring
 ## BEM Method
 ## CSS Variables
