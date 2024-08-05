@@ -33,4 +33,38 @@ __class__ selectors like `.bright` and __attribute__ selectors like `[type=check
 ```
 
 ## BEM Method
+__BEM__ stands for **B**lock, **E**lement, **M**odifier, and is a method that allows one to create reusable components through CSS class naming conventions.
+```css
+/* A block is a standalone entity or component */
+.block {
+	...;
+}
+
+/* An element is a part of your block (or component) that has no standalone meaning. */
+.block__element {
+	...;
+}
+
+/* A modifier is a flag on your block (or component) that is used to change its appearance or behavior, e.g. disabled, checked, bright, etc. */
+.block--modifier {
+	...;
+}
+```
+You can find an introduction to BEM [here](http://getbem.com/introduction/)
+
+### Kebab Case in BEM
+```css
+.customer-card {
+	...;
+}
+
+.customer-card__button {
+	...;
+}
+
+.customer-card--disabled {
+	...;
+}
+```
+
 ## CSS Variables
