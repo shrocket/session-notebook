@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css-responsive.md",
+                "file": "css/css-flexbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/css-structure.md",
+                "file": "shell-and-git/git-branches-and-prs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/css-structure.md",
+                "file": "shell-and-git/git-branches-and-prs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/css-structure.md"
+                "file": "shell-and-git/git-branches-and-prs.md"
               }
             }
           }
@@ -170,20 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "504aad5ccf841b2a",
+  "active": "6fec7f312dd81336",
   "lastOpenFiles": [
-    "javascript/js-basics.md",
-    "css/css-structure.md",
     "shell-and-git/git-branches-and-prs.md",
-    "shell-and-git/git-cheatsheet.md",
+    "css/css-structure.md",
+    "css/css-flexbox.md",
     "css/css-responsive.md",
+    "javascript/js-basics.md",
+    "shell-and-git/git-cheatsheet.md",
     "css/css-positioning.md",
     "html/html-and-the-web.md",
     "css/css-basics.md",
     "Accessibility.md",
     "assets/position-sticky.png",
     "assets/position-relative.png",
-    "css/css-flexbox.md",
     "css/css-gridlayout.md",
     "assets/flex-wrap.png",
     "assets",

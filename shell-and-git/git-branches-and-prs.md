@@ -1,4 +1,4 @@
-# Git Branches
+## Git Branches
 
 ### Git `branch` commands
 
@@ -22,3 +22,10 @@
 7. Merge the pull request into main
 8. Don't forget to `git pull` inside the main branch on your local machine
 9. Delete the new branch on GitHub and locally
+
+### Branch Prefixes
+1. Feature Branches: `feature/login-system`
+2. Bugfix Branches: `bugfix/header-styling`
+3. Hotfix Branches (are made directly from the production branch to fix critical bugs in the production environment): `hotfix/critical-security-issue`
+4. Release Branches (allow for last minute minor changes): `release/v1.0.1`
+5. Documentation Branches: `docs/api-endpoints`
