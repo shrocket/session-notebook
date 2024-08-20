@@ -39,5 +39,44 @@ Expressive variable names are very important to __code readability__! There are 
 - write out all words: `error` instead of `e`, `followTheButton` instead of `flBtn`
 - be very specific; longer names are better than shorter: `updatedFollowerCounter` instead of `counter`
 
-## Math & Operations
+## Math & Operators
+
+Programmers sometimes have to use mathematical operations to calculate certain widths or positions of elements. Operators calculate values based on one or two expressions.
+
+| operator | effect                                                                                              |
+| -------- | --------------------------------------------------------------------------------------------------- |
+| `+`      | adds two numbers together                                                                           |
+| `-`      | subtracts one number from another                                                                   |
+| `*`      | multiples two numbers                                                                               |
+| `/`      | divides two numbers                                                                                 |
+| `**`     | potentiates two numbers: `2 ** 4 -> 16`                                                             |
+| `%`      | the __remainder__ or __modulus__ gives you what remains after a whole number division: `8 % 3 -> 2` |
+
+### More on the Remainder: `%`
+
+The remainder is a very useful operator, but might be difficult to understand at first. A real life example would be in time on a clock. After noon, you don't reach 13 a.m., but you start over at 1 p.m. Three hours after midnight isn't 15 p.m. (or 27h in the 24h format), but 3 a.m. It is whatever hour we have mod 12.
+
+```js
+5 % 12; // -> 5
+12 % 12; // -> 0
+13 % 12; // -> 1
+15 % 12; // -> 3
+27 % 12; // -> 3
+```
+
+This operator can also be used to determine if a number is even or odd:
+
+```js
+6 % 2; // -> 0
+```
+
+The result is `0` for all __even numbers__, because after dividing an even number by `2` nothing remains.
+
+```js
+5 % 2; // -> 1
+```
+
+The result is `1` for all __odd numbers__, because after dividing an odd number by `2` there is always `1` left over .
+
+In "real world" terms, an even number divided by `2` produces a whole number answer, but an odd number divided by `2` always produces a fraction.
 
