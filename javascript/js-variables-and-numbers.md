@@ -91,3 +91,15 @@ In "real world" terms, an even number divided by `2` produces a whole number ans
 ### Assignment Operators
 
 `=` is the default assignment operator. This operator simply assigns the value on the __right__ to the element on the __left__. There are more assignment operators for very common actions like increasing a variable by a fixed value.
+
+| operator | effect                                                                                                                 |
+| -------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `+=`     | increases the value of the variable on the left by the the value on the right: `count += 6` -> count is increased by 6 |
+| `-=`     | decreases the value of the variable on the left by the value on the right                                              |
+| `*=`     | multiplies the variable on the left by the value on the right                                                          |
+| `/=`     | divides the variable on the left by the the value on the right                                                         |
+| `++`     | __increments__ the value of a variable by one: `count++` -> the count is increased by one                              |
+| `--`     | __decrements__ the value of a variable by one: `count--` -> the count is decreased by one                              |
+
+### Type Coersion
+
