@@ -103,3 +103,21 @@ In "real world" terms, an even number divided by `2` produces a whole number ans
 
 ### Type Coersion
 
+If you use an operator with a variable of an unfitting type, JS will automatically convert (coerce) the variable into a fitting type. For example:
+
+```js
+4 / "2"; // -> 4 / 2
+```
+
+In the above, `"2"` is a string, not a number. JS converts the string to a number.
+
+> [!warning] There is another `+` operator in JS that links two strings together: `"a" + "b"`->`"ab"`. When "adding" a number and a string, the number is converted to a string: `"a" + 6`->`"a6"`. Make sure that both variables are numbers if you want to add them!
+
+> [!info] Read more about [__Type coersion__ in the mdn](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion).
+
+### Number Systems
+
+When working with computers, it is sometimes useful to work with a different number system than the standard 10 digit system, since a computer only understands `binary` numbers composed of `1` and `0`. 
+- `decimal system`: the standard numbers, has 10 symbols "0" to "9"
+- `binary system`: only has 2 symbols "0" and "1." If you want to write a bigger number than 1, you add another digit: 2 -> "10" in binary.
+- `hexadecimal system`: has 16 symbols: "0" to "9" and "a" to "f." If you want to write a number bigger than 15, you add another digit: 12 -> "c" in hexadecimal.
