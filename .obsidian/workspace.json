@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css-structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32f308621d405a7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "css/css-flexbox.md",
+                "file": "javascript/js-basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/js-variables-and-numbers.md",
+                "file": "javascript/js-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/js-variables-and-numbers.md",
+                "file": "javascript/js-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/js-variables-and-numbers.md"
+                "file": "javascript/js-basics.md"
               }
             }
           }
@@ -183,15 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fec7f312dd81336",
+  "active": "504aad5ccf841b2a",
   "lastOpenFiles": [
-    "shell-and-git/git-cheatsheet.md",
     "javascript/js-variables-and-numbers.md",
-    "shell-and-git/git-branches-and-prs.md",
+    "javascript/js-basics.md",
     "css/css-structure.md",
+    "shell-and-git/git-cheatsheet.md",
+    "shell-and-git/git-branches-and-prs.md",
     "css/css-flexbox.md",
     "css/css-responsive.md",
-    "javascript/js-basics.md",
     "css/css-positioning.md",
     "html/html-and-the-web.md",
     "css/css-basics.md",
