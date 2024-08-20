@@ -80,3 +80,14 @@ The result is `1` for all __odd numbers__, because after dividing an odd number 
 
 In "real world" terms, an even number divided by `2` produces a whole number answer, but an odd number divided by `2` always produces a fraction.
 
+### Operator Precedence
+
+#### __PEMDAS__
+
+> [!info] You can read more about [__Operator precedence__ in the mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence).
+
+> [!info] If you are uncertain, use parentheses to denote precedence manually (the __P__ in __PEMDAS__!). Prettier will remove any unnecessary parentheses from your expression automatically.
+
+### Assignment Operators
+
+`=` is the default assignment operator. This operator simply assigns the value on the __right__ to the element on the __left__. There are more assignment operators for very common actions like increasing a variable by a fixed value.
