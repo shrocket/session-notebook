@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5a110f033e553bb8",
+        "id": "c02c450797dbea32",
         "type": "tabs",
         "children": [
           {
-            "id": "504aad5ccf841b2a",
+            "id": "30b9c648ef122f7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/js-basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fec7f312dd81336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "javascript/js-variables-and-numbers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3cb43ba9c2f29ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shell-and-git/git-cheatsheet.md",
+                "file": "javascript/js-conditions-and-booleans.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/js-basics.md",
+                "file": "javascript/js-conditions-and-booleans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/js-basics.md",
+                "file": "javascript/js-conditions-and-booleans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/js-basics.md"
+                "file": "javascript/js-conditions-and-booleans.md"
               }
             }
           }
@@ -170,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "504aad5ccf841b2a",
+  "active": "30b9c648ef122f7a",
   "lastOpenFiles": [
+    "javascript/js-conditions-and-booleans.md",
+    "shell-and-git/git-cheatsheet.md",
     "javascript/js-variables-and-numbers.md",
     "javascript/js-basics.md",
     "css/css-structure.md",
-    "shell-and-git/git-cheatsheet.md",
     "shell-and-git/git-branches-and-prs.md",
     "css/css-flexbox.md",
     "css/css-responsive.md",
