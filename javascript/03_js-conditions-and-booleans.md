@@ -1,3 +1,7 @@
+[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-conditions-and-booleans/js-conditions-and-booleans.md)
+
+***
+
 ## Boolean Values
 
 A boolean value, named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), only has two states: True or False. Booleans are often used in conditional statements which can execute different code depending on their value.
@@ -137,3 +141,4 @@ moveElement(xPos > 300 ? 300 : xPos); // the element can't be moved further than
 ***
 
 ## Advanced: The strangeness of boolean coercion and making use of non-strict equality
+[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-conditions-and-booleans/js-conditions-and-booleans.md#advanced-the-strangeness-of-boolean-coercion-and-making-use-of-non-strict-equality)
