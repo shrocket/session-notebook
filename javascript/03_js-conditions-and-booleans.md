@@ -98,5 +98,42 @@ if (hour < 12) {
 If the condition is not a boolean, it is converted into one by type coercion. This can be used to check whether a value is not 0 or an empty string:
 
 ```js
-
+const name = "Alex";
+if (name) {
+	console.log("Hi " + name + "!"); //only executed if name is not an empty string
+}
 ```
+
+***
+
+## Ternary Operator: `? :`
+
+With if/else statements whole blocks of code can be controlled. The ternary operator can be used if you want to decide between two _expressions_, e.g. which value should be stored in a variable:
+
+```js
+const greetingText = time < 12 ? "Good morning." : "Good afternoon.";
+```
+
+The ternary operator has the following structure:
+
+```js
+condition ? expressionIfTrue : expressionIfFalse;
+```
+
+If the condition is true, the first expression is evaluated, otherwise the second expression. The ternary operator can be used to decide which function should be called:
+
+```js
+usUserLoggedIn ? logoutUser() : loginUser();
+```
+
+It can also distinguish which value should be passed as an argument to a function:
+
+```js
+moveElement(xPos > 300 ? 300 : xPos); // the element can't be moved further than 300.
+```
+
+>[!warning] The operator can only distinguish between two _expressions_ like values, math / logical operations or function calls, not between _statements_ like variable declarations, if/else statements or multi-line code blocks.
+
+***
+
+## Advanced: The strangeness of boolean coercion and making use of non-strict equality
