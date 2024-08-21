@@ -1,0 +1,49 @@
+## Boolean Values
+
+A boolean value, named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), only has two states: True or False. Booleans are often used in conditional statements which can execute different code depending on their value.
+
+## Truthy and Falsy Values
+
+Sometimes you want to have a condition depending on another type of value. JS can transform any value into a boolean with _type coercion_ (see [[02_js-variables-and-numbers]]). That means that some values act _as if_ they were true and other _as if_ they were false: _Truthy_ values become true, _falsy_ values become false.
+
+- _truthy_ values:
+	- non zero numbers: `1`, `2`, `3`, etc.
+	- non empty strings: `"hello"`
+	- `true`
+- _falsy_ values:
+	- `0` / `-0`
+	- `null`
+	- `false`
+	- `undefined`
+	- empty string: `""`
+
+***
+
+## Comparison Operators
+
+Comparison operators produce boolean values by comparing two expressions:
+
+| Operator  | Effect                                                                              |
+| --------- | ----------------------------------------------------------------------------------- |
+| A `===` B | __strict equal__: is `true` if both values are equal (including their type)         |
+| A `!==` B | __strict not equal__: is `true` if both values are not equal (including their type) |
+| A `>` B   | __strictly greater than__: is `true` if A is greater than B                         |
+| A `<` B   | __strictly less than__: is `true` if A is less than B                               |
+| A `>=` B  | __greater than or equal__: is `true` if A is greater than or equal to B             |
+| A `<=` B  | __less than or equal__: is `true` if A is less than or equal to B                   |
+>[!info] Please notice that JS uses three equal signs (`===`) to check for equality. Do not be confused!
+> - `=` (`const x=0`) is the assignment operator and has nothing to do with comparison.
+> - `==` and `!=` are non-strict equality operators. __You should avoid them 99% of the time.__ Non-strict equality tries to use type coercion to convert both values to the same type: `"3" == 3` is `true`, which is seldomly what you want.
+> - `===` and `!==` are strict equality operators. __This is what you need almost always.__ Strict equality checks if type _and_ value are the same: `"3" === 3` is `false`.
+
+ ***
+## Logical Operators
+
+Logical operators combine up to two booleans into a new boolean.
+
+| Operator | Effect                                                |
+| -------- | ----------------------------------------------------- |
+| `!`A     | `not`: flips a `true` value to `false` and vice versa |
+| A \|\| B | `or`: is `true` if either A `or` B is true            |
+| A `&&` B | `and`: is `true` if both A `and` B are true           |
+

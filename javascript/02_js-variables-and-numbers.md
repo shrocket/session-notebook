@@ -101,7 +101,7 @@ In "real world" terms, an even number divided by `2` produces a whole number ans
 | `++`     | __increments__ the value of a variable by one: `count++` -> the count is increased by one                              |
 | `--`     | __decrements__ the value of a variable by one: `count--` -> the count is decreased by one                              |
 
-### Type Coersion
+### Type Coercion
 
 If you use an operator with a variable of an unfitting type, JS will automatically convert (coerce) the variable into a fitting type. For example:
 
