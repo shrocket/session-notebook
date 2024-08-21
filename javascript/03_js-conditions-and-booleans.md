@@ -118,6 +118,13 @@ With if/else statements whole blocks of code can be controlled. The ternary oper
 const greetingText = time < 12 ? "Good morning." : "Good afternoon.";
 ```
 
+```js
+// a simple examples
+const time = 13
+const greetingText = time < 12 ? "Good morning." : "Good afternoon.";
+console.log(greetingText);
+```
+
 The ternary operator has the following structure:
 
 ```js

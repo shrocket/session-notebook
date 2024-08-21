@@ -35,7 +35,7 @@ JavaScript is a __dynamically typed language__, which means that you don't have 
 ### Variable Naming
 
 Expressive variable names are very important to __code readability__! There are some key guidelines one should follow:
-- use camel case: `soçialFeedEntry` instead of `socialfeedentry`
+- use camel case: `socialFeedEntry` instead of `socialfeedentry`
 - write out all words: `error` instead of `e`, `followTheButton` instead of `flBtn`
 - be very specific; longer names are better than shorter: `updatedFollowerCounter` instead of `counter`
 
