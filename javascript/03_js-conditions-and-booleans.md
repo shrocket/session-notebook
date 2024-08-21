@@ -31,7 +31,7 @@ Comparison operators produce boolean values by comparing two expressions:
 | A `<` B   | __strictly less than__: is `true` if A is less than B                               |
 | A `>=` B  | __greater than or equal__: is `true` if A is greater than or equal to B             |
 | A `<=` B  | __less than or equal__: is `true` if A is less than or equal to B                   |
->[!info] Please notice that JS uses three equal signs (`===`) to check for equality. Do not be confused!
+>[!note] Please notice that JS uses three equal signs (`===`) to check for equality. Do not be confused!
 > - `=` (`const x=0`) is the assignment operator and has nothing to do with comparison.
 > - `==` and `!=` are non-strict equality operators. __You should avoid them 99% of the time.__ Non-strict equality tries to use type coercion to convert both values to the same type: `"3" == 3` is `true`, which is seldomly what you want.
 > - `===` and `!==` are strict equality operators. __This is what you need almost always.__ Strict equality checks if type _and_ value are the same: `"3" === 3` is `false`.
@@ -46,4 +46,57 @@ Logical operators combine up to two booleans into a new boolean.
 | `!`A     | `not`: flips a `true` value to `false` and vice versa |
 | A \|\| B | `or`: is `true` if either A `or` B is true            |
 | A `&&` B | `and`: is `true` if both A `and` B are true           |
+>[!note] You can combine logical operators with brackets to define which operator should be evaluated first, e.g.:
+>- `(A || B) && (C || D)`
+>- `!(A || B)`
 
+>[!note] Be careful when using `&&` or `||` with non-boolean values. They actually return one of the original values. That can be useful, but can also quickly lead to confusion. The behavior is called [short-circuit evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND#short-circuit_evaluation) and is a more advanced topic.
+>- `"some string" || "some other string"` evaluates to `"some string"`
+>- `0 || 100` evaluates to `100`
+>- `null && "yet another string"` evaluated to `null`
+
+***
+
+## Control Flow: `if / else`
+
+With an if statement we can control whether a part of our code is executed or not, based on a condition.
+
+```js
+const isSunShining = true;
+
+if (isSunShining) {
+	// code that is executed only if condition "isSunShining" is true
+}
+```
+
+The else block is executed only if the condition is `false`.
+
+```js
+const isSunShining = false;
+
+if (isSunShining) {
+	// code that is executed only if condition "isSunShining" is true
+} else {
+	// code that is executed only if condition "isSunShining" is false
+}
+```
+
+The condition expression between the `()` parentheses can be composed of logical or comparison operators as well. You can distinguish between more cases by chaining `else if` statements.
+
+```js
+if (hour < 12) {
+	console.log("Good Morning.");
+} else if (hour < 18) {
+	console.log("Good afternoon.);
+} else if (hour === 24) {
+	console.log("Good night.");
+} else {
+	console.log("Good evening.");
+}
+```
+
+If the condition is not a boolean, it is converted into one by type coercion. This can be used to check whether a value is not 0 or an empty string:
+
+```js
+
+```
