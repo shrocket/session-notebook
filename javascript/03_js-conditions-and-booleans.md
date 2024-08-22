@@ -149,3 +149,27 @@ moveElement(xPos > 300 ? 300 : xPos); // the element can't be moved further than
 
 ## Advanced: The strangeness of boolean coercion and making use of non-strict equality
 [see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-conditions-and-booleans/js-conditions-and-booleans.md#advanced-the-strangeness-of-boolean-coercion-and-making-use-of-non-strict-equality)
+
+***
+
+
+## Challenges
+
+## Statements
+
+I had some trouble with Part 5: Greeting. I was able to get the console to output the correct thing by making a long and unwieldy ternary operator, but I had to look up the more simple solution:
+
+```js
+const greeting = "Hello" + (userName === "Archibald" ? "Coach" : userName) + "!";
+console.log(greeting);
+```
+
+## Teenager check
+
+I was able to write both an if/else statement _and_ a ternary operator that correctly logged the text to the console, but could not remember how to change the text.
+
+I knew I needed to do something with `output = document.querySelector('[data-js="age-output"]');`, but not _what_.
+
+I did a search in the froggy slack and found Eli's solution [here](https://codesandbox.io/p/sandbox/nifty-cartwright-zw53my?file=%2Fjs%2Findex.js).
+
+It would have been nice if `(output.textContent = "XXX")` had been in _any_ of the notes leading up to this point.
