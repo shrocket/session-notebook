@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/03_js-conditions-and-booleans.md",
+                "file": "javascript/01_js-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/03_js-conditions-and-booleans.md",
+                "file": "javascript/01_js-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/03_js-conditions-and-booleans.md"
+                "file": "javascript/01_js-basics.md"
               }
             }
           }
@@ -170,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30b9c648ef122f7a",
+  "active": "0e9e726dd9770d02",
   "lastOpenFiles": [
-    "javascript/01_js-basics.md",
     "javascript/03_js-conditions-and-booleans.md",
+    "javascript/01_js-basics.md",
     "javascript/02_js-variables-and-numbers.md",
     "shell-and-git/git-cheatsheet.md",
     "css/css-structure.md",
