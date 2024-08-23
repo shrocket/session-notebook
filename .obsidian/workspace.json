@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/02_js-variables-and-numbers.md",
+                "file": "javascript/03_js-conditions-and-booleans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/02_js-variables-and-numbers.md",
+                "file": "javascript/03_js-conditions-and-booleans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/02_js-variables-and-numbers.md"
+                "file": "javascript/03_js-conditions-and-booleans.md"
               }
             }
           }
@@ -171,16 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01f8871edece706f",
+  "active": "30b9c648ef122f7a",
   "lastOpenFiles": [
+    "javascript/02_js-variables-and-numbers.md",
+    "javascript/03_js-conditions-and-booleans.md",
     "javascript/01_js-basics.md",
+    "css/css-flexbox.md",
     "shell-and-git/git-cheatsheet.md",
     "css/css-responsive.md",
-    "javascript/03_js-conditions-and-booleans.md",
-    "javascript/02_js-variables-and-numbers.md",
     "css/css-structure.md",
     "shell-and-git/git-branches-and-prs.md",
-    "css/css-flexbox.md",
     "css/css-positioning.md",
     "html/html-and-the-web.md",
     "css/css-basics.md",
