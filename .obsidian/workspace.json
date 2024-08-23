@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/01_js-basics.md",
+                "file": "css/css-responsive.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/01_js-basics.md",
+                "file": "css/css-responsive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/01_js-basics.md",
+                "file": "css/css-responsive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/01_js-basics.md"
+                "file": "css/css-responsive.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "0e9e726dd9770d02",
   "lastOpenFiles": [
-    "javascript/03_js-conditions-and-booleans.md",
     "javascript/01_js-basics.md",
+    "javascript/03_js-conditions-and-booleans.md",
     "javascript/02_js-variables-and-numbers.md",
     "shell-and-git/git-cheatsheet.md",
     "css/css-structure.md",
