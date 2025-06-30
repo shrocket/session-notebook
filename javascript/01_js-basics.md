@@ -1,4 +1,4 @@
-[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-basics/js-basics.md)
+inde[see here](https://github.com/neuefische/bo-web-23-4/blob/main/sessions/js-basics/js-basics.md)
 ## Connect a JavaScript file
 
 ```html
@@ -133,7 +133,7 @@ A click on the button adds the class __page--primary__ to the main element:
 You can also __remove__ or __toggle__ a class in the same way:
 
 ```js
-main.classList.remove("page--primary")'
+main.classList.remove("page--primary");
 ```
 
 ```js
